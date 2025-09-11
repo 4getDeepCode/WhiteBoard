@@ -1,8 +1,12 @@
 import React from 'react'
+import RealTimeComponet from '../components/RealTimeComponent'
 
 function RealTime() {
   return (
-    <div>RealTime</div>
+    <>
+    <RealTimeComponet/>
+        
+    </>
   )
 }
 
