@@ -1,8 +1,11 @@
 import React from 'react'
+import TestComponent from '../components/TestComponent'
 
 function Test() {
   return (
-    <div>Test</div>
+    <>
+    <TestComponent/>
+    </>
   )
 }
 

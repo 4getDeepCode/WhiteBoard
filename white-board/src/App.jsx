@@ -6,13 +6,13 @@ import Collab from "./pages/Collab";
 
 function App() {
   return (
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Test />} />
-      <Route path="/realtime" element={<RealTime/>} />
-      <Route path="/collab" element={<Collab />} />
-    </Routes>
-  </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Test />} />
+        <Route path="/realtime" element={<RealTime />} />
+        <Route path="/collab" element={<Collab />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
