@@ -1,8 +1,12 @@
 import React from 'react'
+import CollabComponent from '../components/CollabComponent'
 
 function Collab() {
   return (
-    <div>Collab</div>
+    <>
+    <CollabComponent/>
+    
+    </>
   )
 }
 

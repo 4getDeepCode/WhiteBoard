@@ -10,4 +10,4 @@ function TestComponent() {
   )
 }
 
-export default TestComponent
+export default TestComponent;
